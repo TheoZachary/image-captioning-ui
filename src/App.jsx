@@ -23,7 +23,7 @@ function App() {
     
     setLoading(true);
     try {
-      const response = await fetch('http://10.108.155.52:7860/predict', {
+      const response = await fetch('https://theo1206-image-captioning.hf.space/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
